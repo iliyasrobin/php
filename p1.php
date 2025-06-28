@@ -1,23 +1,35 @@
 <?php
 
-echo "Hello World!";
+    echo "Hello World!";
 
-echo "\n";
-$name = 'iliyas';
-$name2 = 'ahmed';
+    echo PHP_EOL;
 
-echo $name;
-echo PHP_EOL;
-echo $name2;
-echo PHP_EOL;
-echo $name2;
+    $name = "John Doe";
+    $age = 23;
+    $email = "john@doe.com";
+    $isMale = true;
+    $isFemale = true;
+    $priceOfPaperToday = 3.4; // camel case
+    $is_male = true; //snake case
+    // $is-female = true; //kebab case
+ 
 
-echo PHP_EOL;
+    echo "Hey I am ". $name . "and I am ". $age . " years old";
 
-//taking input 
+    echo PHP_EOL;
 
-$name3 = readline('ENTER YOUR NAME');
-echo PHP_EOL;
-echo $name3;
+    echo "Hey I am $name and I am $age years old";
+    echo PHP_EOL;
+    echo "Hey I am {$name} and I am {$age} years old";
 
+
+
+    echo PHP_EOL;
+    echo $name;
+    echo "\n";
+    echo $age;
+    echo "\n";
+    echo $email;
+    echo "\n";
+    
 ?>
